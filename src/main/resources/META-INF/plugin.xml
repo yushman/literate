@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>io.github.yushman.literate</id>
-    <name>Literate</name>
+    <name>LiterateIt</name>
     <vendor url="https://yushman.github.io">yushman</vendor>
     <description><![CDATA[
     Transliterates selected text EN -> RU, RU -> EN
