@@ -4,13 +4,15 @@
     <vendor url="https://yushman.github.io">yushman</vendor>
     <idea-version since-build="241" until-build="251.*"/>
     <description><![CDATA[
-    A plugin for IntelliJ-based IDEs that transliterates selected text between Cyrillic and Latin keyboard layouts with a single shortcut.
+    <h3>A plugin for IntelliJ-based IDEs that transliterates selected text between Cyrillic and Latin keyboard layouts with a single shortcut.</h3>
 
-    - Converts "Ghbdtn" to "Привет" and vice versa
-    - Smart automatic direction detection (Cyrillic ↔ Latin)
-    - Preserves non-alphabetic characters
-    - Works in all text editors within IntelliJ platform
-    - Configurable keyboard shortcut
+    <ul>
+        <li>Converts "Ghbdtn" to "Привет" and vice versa</li>
+        <li>Smart automatic direction detection (Cyrillic ↔ Latin)</li>
+        <li>Preserves non-alphabetic characters</li>
+        <li>Works in all text editors within IntelliJ platform</li>
+        <li>Configurable keyboard shortcut</li>
+    </ul>
   ]]></description>
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij"/>

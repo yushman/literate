@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "io.github.yushman.literate"
-version = "0.1"
+version = "0.2"
 
 repositories {
     mavenCentral()
@@ -16,7 +16,7 @@ repositories {
 
 dependencies {
     intellijPlatform {
-        create("IC", "2024.1")
+        create("IC", "2025.1")
     }
 }
 
@@ -25,6 +25,6 @@ intellijPlatform {
         ideaVersion {
             sinceBuild = "241"
         }
-        version = "0.1"
+        version = "0.2"
     }
 }
