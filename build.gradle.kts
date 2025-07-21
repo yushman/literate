@@ -16,14 +16,14 @@ repositories {
 
 dependencies {
     intellijPlatform {
-        create("IC", "2025.1")
+        create("IC", "2024.1")
     }
 }
 
 intellijPlatform {
     pluginConfiguration {
         ideaVersion {
-            sinceBuild = "251"
+            sinceBuild = "241"
         }
         version = "0.1"
     }
