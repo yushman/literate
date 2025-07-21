@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>io.github.yushman.literate</id>
+    <name>Literate</name>
+    <vendor url="https://yushman.github.io">yushman</vendor>
+    <description><![CDATA[
+    Transliterates selected text EN -> RU, RU -> EN
+  ]]></description>
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij"/>
+    <actions>
+        <action
+                id="io.github.yushman.literate.TransliterateAction"
+                class="io.github.yushman.literate.TransliterateAction"
+                text="Transliterate Text">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift T"/>
+        </action>
+    </actions>
+</idea-plugin>
