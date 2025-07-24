@@ -1,5 +1,8 @@
 # IntelliJ Transliteration Plugin
 
+[![Version](https://img.shields.io/jetbrains/plugin/v/27975.svg)](https://plugins.jetbrains.com/plugin/27975)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/27975.svg)](https://plugins.jetbrains.com/plugin/27975)
+
 A plugin for IntelliJ-based IDEs that transliterates selected text between Cyrillic and Latin keyboard layouts with a single shortcut.
 
 ## Features
